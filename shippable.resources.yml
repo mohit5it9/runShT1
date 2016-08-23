@@ -20,7 +20,7 @@ resources:
     pointer:
       method: email
       recipients: 
-        -  "sreya@shippable.com"
+        - "sreya@shippable.com"
   - name: env1
     type: params
     version:
