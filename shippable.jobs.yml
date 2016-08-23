@@ -6,7 +6,7 @@ jobs:
       - IN: sample-scriptT1
       - IN: env1
       - IN: plv2-imageT1
-        versionNumber: 1000
+        versionNumber: 1
       - IN: triggertestT1
       - TASK:
         - script: ./IN/sample-scriptT1/gitRepo/echo.sh
