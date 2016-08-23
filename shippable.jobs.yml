@@ -4,7 +4,8 @@ jobs:
    # serial: true
     steps:
       - IN: sample-scriptT1
-      - IN: env1
+      - IN: enV1
+      - IN: plv2-imageT1
       - IN: triggertestT1
       - TASK:
         - script: ./IN/sample-scriptT1/gitRepo/echo.sh
