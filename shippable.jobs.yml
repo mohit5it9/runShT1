@@ -35,8 +35,8 @@ jobs:
     on_failure:
       -  echo 'testing1 failure'
       -  echo 'failure runSh'
-      - script: pwd
-      - script: ls
+      -  pwd
+      -  ls
       - NOTIFY: mySlack2
       - NOTIFY: myEmail2
     on_start:
