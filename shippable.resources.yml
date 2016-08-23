@@ -13,7 +13,7 @@ resources:
       sourceName: shiptests1/sample-script-3
       branch: master
   
-  - name: plv2-imageT1
+  - name: plv2-imageT1j1
     type: image
     integration: ship4-docker
     pointer:
