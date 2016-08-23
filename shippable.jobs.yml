@@ -21,7 +21,7 @@ jobs:
     on_success:
       - script: pwd
       - script: ls /build
-      - script: /build./IN/sample-scriptT1/gitRepo/echo.sh
+      - script: /build/IN/sample-scriptT1/gitRepo/echo.sh
     #   - NOTIFY: myEmail2
     #   - NOTIFY: mySlack2
       - script: echo 'infra test'
