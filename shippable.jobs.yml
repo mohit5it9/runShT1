@@ -8,7 +8,7 @@ jobs:
       - IN: plv2-imageT1
         versionName: "deploy.1"
       - IN: triggertestT1
-      - TASK:
+      #- TASK:
         - script: ./IN/sample-scriptT1/gitRepo/echo.sh
         - script: pwd
         - script: ls
