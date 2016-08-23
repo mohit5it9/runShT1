@@ -60,9 +60,9 @@ jobs:
   - name: runShT111
     type: runSh
    #  serial: true
-    steps:
-      #- IN: sample-scriptT11
-      #- IN: triggertest4
+    #steps:
+      - IN: sample-scriptT11
+      - IN: triggertest4
       #- IN: runShT1
       - TASK:
         - script: ./IN/sample-scriptT11/gitRepo/echo.sh
