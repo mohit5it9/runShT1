@@ -28,13 +28,13 @@ jobs:
        - script: /build/IN/sample-scriptT1/gitRepo/echo.sh
        - NOTIFY: myEmail2
        - NOTIFY: mySlack2
-       - script: echo 'infra test'
-    #   - script: echo 'newtesting success'
+       - echo 'infra test'
+       - echo 'newtesting success'
     #   - NOTIFY: mySlack2
     #   - NOTIFY: myEmail2
     on_failure:
-      - script: echo 'testing1 failure'
-      - script: echo 'failure runSh'
+      -  echo 'testing1 failure'
+      -  echo 'failure runSh'
     #   - script: pwd
     #   - script: ls
       - NOTIFY: mySlack2
