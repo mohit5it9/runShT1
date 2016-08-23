@@ -1,17 +1,17 @@
 resources:
-  - name: sample-script-3
+  - name: sample-scriptT1
     type: gitRepo
     integration: github
     pointer:
       sourceName: shiptests1/sample-script-3
       branch: master
       
-  - name: sample-script-4
-    type: gitRepo
-    integration: github
-    pointer:
-      sourceName: shiptests1/sample-script-3
-      branch: master
+  # - name: sample-script-4
+  #   type: gitRepo
+  #   integration: github
+  #   pointer:
+  #     sourceName: shiptests1/sample-script-3
+  #     branch: master
       
   # - name: mySlack2
   #   type: notification
