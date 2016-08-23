@@ -7,7 +7,7 @@ jobs:
      # - IN: env
       - IN: triggertestT1
       - TASK:
-        - script: ./IN/sample-scriptT1/gitRepo/echo.sh
+        - script: ./IN/sample-scriptT11/gitRepo/echo.sh
         - script: pwd
         - script: ls
         - script: export FOO=bar
@@ -35,12 +35,12 @@ jobs:
        - script: ls
        - NOTIFY: mySlack2
        - NOTIFY: myEmail2
-    # on_start:
+    on_start:
     #   - script: echo 'strat test'
     #   - script: echo 'test'
     #   - script: ls
-    #   - NOTIFY: mySlack2
-    #   - NOTIFY: myEmail2
+       - NOTIFY: mySlack2
+       - NOTIFY: myEmail2
     #   - NOTIFY: mySlack2
       
 
