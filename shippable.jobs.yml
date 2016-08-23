@@ -1,13 +1,13 @@
 jobs:
-  - name: runShk7
+  - name: runShT1
     type: runSh
    # serial: true
     steps:
-      - IN: sample-script-3
+      - IN: sample-scriptT1
      # - IN: env
-      - IN: triggertest4
+      - IN: triggertestt1
       - TASK:
-        - script: ./IN/sample-script-3/gitRepo/echo.sh
+        - script: ./IN/sample-scriptT1/gitRepo/echo.sh
         - script: pwd
         - script: ls
         - script: export FOO=bar
@@ -29,13 +29,5 @@ jobs:
     #   - script: echo 'failure runSh'
     #   - NOTIFY: mySlack2
       
-  - name: runShk8
-    type: runSh
-  #  serial: true
-    steps:
-      - IN: sample-script-4
-      - IN: triggertest4
-      - TASK:
-        - script: ./IN/sample-script-4/gitRepo/echo.sh
-  
+
  
