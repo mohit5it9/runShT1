@@ -10,6 +10,7 @@ resources:
     type: notification
     integration: ship-slack1
     pointer:
+      method: email
       recipients:
         - "#random"
       # - "@pvt-channel"
