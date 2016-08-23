@@ -62,8 +62,8 @@ jobs:
   # #  serial: true
     steps:
       - IN: sample-scriptT11
-      - IN: triggertest4
-      - OUT:  plv2-manT11
+      - IN: triggertestT1
+      - OUT: plv2-manT11
   #     #- IN: runShT1
       - TASK:
         - script: ./IN/sample-scriptT11/gitRepo/echo.sh
