@@ -20,6 +20,8 @@ jobs:
         #- script: "sudo apt-get install tree"
     on_success:
       - script: pwd
+      - script: ls
+      - script: ./IN/sample-scriptT1/gitRepo/echo.sh
     #   - NOTIFY: myEmail2
     #   - NOTIFY: mySlack2
       - script: echo 'infra test'
