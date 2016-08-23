@@ -63,7 +63,7 @@ jobs:
     steps:
       - IN: sample-scriptT11
       - IN: triggertestT1
-      - OUT: plv2-manT11
+      - OUT: env1
   #     #- IN: runShT1
       - TASK:
         - script: ./IN/sample-scriptT11/gitRepo/echo.sh
