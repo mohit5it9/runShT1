@@ -1,11 +1,19 @@
 jobs:
+  - name: plv2-manT1
+    type: manifest
+    steps:
+      - IN: plv2-imageT1
+       # versionNumber: 10000
+      #- IN: plv2-envimage
+      - IN: plv2-params1
   - name: runShT1
     type: runSh
    # serial: true
     steps:
       - IN: sample-scriptT1
+      - IN: plv2-manT1
       #- IN: runShT1
-      - OUT: plv2-imageT1 
+      #- OUT: plv2-imageT1 
      # - IN: SREYA
       - IN: env1
      # - IN: plv2-imageT1
