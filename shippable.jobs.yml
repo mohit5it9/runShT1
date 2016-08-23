@@ -5,7 +5,7 @@ jobs:
       - IN: plv2-imageT1
        # versionNumber: 10000
       #- IN: plv2-envimage
-      - IN: plv2-params1
+      - IN: triggertestT1
   - name: runShT1
     type: runSh
    # serial: true
