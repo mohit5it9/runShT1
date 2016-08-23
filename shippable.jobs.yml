@@ -4,7 +4,7 @@ jobs:
    # serial: true
     steps:
       - IN: sample-scriptT1
-      - IN: SREYA
+     # - IN: SREYA
       - IN: env1
       - IN: plv2-imageT1
         #versionName: "deploy.1"
