@@ -7,7 +7,7 @@ jobs:
       - IN: env1
       - IN: triggertestT1
       - TASK:
-        - script: ./IN/sample-scriptT11/gitRepo/echo.sh
+        - script: ./IN/sample-scriptT1/gitRepo/echo.sh
         - script: pwd
         - script: ls
         - script: export FOO=bar
