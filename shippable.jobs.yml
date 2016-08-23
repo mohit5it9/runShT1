@@ -63,7 +63,7 @@ jobs:
     steps:
       - IN: sample-scriptT11
       - IN: triggertest4
-      - OUT: SRE1
+      #- OUT: SRE1
   #     #- IN: runShT1
       - TASK:
         - script: ./IN/sample-scriptT11/gitRepo/echo.sh
