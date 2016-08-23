@@ -57,7 +57,7 @@ jobs:
       - NOTIFY: myEmail2
     #   - NOTIFY: mySlack2
   
-  - name: runShT11
+  - name: runShT111
     type: runSh
    #  serial: true
     steps:
