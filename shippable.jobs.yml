@@ -19,13 +19,13 @@ jobs:
         # - script: echo "$n1"
         # - script: echo 'new'
         #- script: "sudo apt-get install tree"
-    # on_success:
-    #   - script: pwd
-    #   - script: ls /build
-    #   - script: /build/IN/sample-scriptT1/gitRepo/echo.sh
-    # #   - NOTIFY: myEmail2
-    # #   - NOTIFY: mySlack2
-    #   - script: echo 'infra test'
+    on_success:
+       - script: pwd
+       - script: ls /build
+       - script: /build/IN/sample-scriptT1/gitRepo/echo.sh
+       - NOTIFY: myEmail2
+       - NOTIFY: mySlack2
+       - script: echo 'infra test'
     #   - script: echo 'newtesting success'
     #   - NOTIFY: mySlack2
     #   - NOTIFY: myEmail2
