@@ -67,7 +67,7 @@ jobs:
   #     #- IN: runShT1
       - TASK:
         - script: ./IN/sample-scriptT11/gitRepo/echo.sh
-  - name: runShT111
+  - name: runShTL1
     type: runSh
   # #  serial: true
     steps:
