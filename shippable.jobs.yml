@@ -4,7 +4,7 @@ jobs:
    # serial: true
     steps:
       - IN: sample-scriptT1
-     # - IN: env
+      - IN: env
       - IN: triggertestT1
       - TASK:
         - script: ./IN/sample-scriptT1/gitRepo/echo.sh
@@ -13,6 +13,7 @@ jobs:
         - script: export FOO=bar
         - script: export FOO1=bar1
         - script: echo $FOO && echo $FOO1
+        - script: echo $n1
         # - script: "node --version"
         # - script: echo "$foo"
         # - script: echo "$n1"
