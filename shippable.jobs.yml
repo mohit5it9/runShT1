@@ -1,8 +1,8 @@
 jobs:
   - name: runShT1
-    type: runSh
+    type: runsh
    # serial: true
-       steps:
+    steps:
       - IN: sample-scriptT1
       - IN: env1
       - IN: plv2-imageT1
