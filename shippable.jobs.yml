@@ -4,7 +4,7 @@ jobs:
    # serial: true
     steps:
       - IN: sample-scriptT1
-      - IN: runShT1
+      #- IN: runShT1
       - OUT: plv2-imageT1 
      # - IN: SREYA
       - IN: env1
