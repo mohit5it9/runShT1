@@ -31,6 +31,10 @@ jobs:
        - script: echo 'failure runSh'
        - script: pwd
        - script: ls
+    on_start:
+      - script: echo 'strat test'
+      - script: echo 'test'
+      - script: ls
     #   - NOTIFY: mySlack2
       
 
