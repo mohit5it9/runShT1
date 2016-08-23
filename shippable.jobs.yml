@@ -18,12 +18,12 @@ jobs:
         # - script: echo "$n1"
         # - script: echo 'new'
         #- script: "sudo apt-get install tree"
-    # on_success:
-    #   #- uname -a
+    on_success:
+      - script: pwd
     #   - NOTIFY: myEmail2
     #   - NOTIFY: mySlack2
-    #   - script: echo 'infra test'
-    #   - script: echo 'newtesting success'
+       - script: echo 'infra test'
+       - script: echo 'newtesting success'
     # on_failure:
     #   - script: echo 'testing1 failure'
     #   - script: echo 'failure runSh'
