@@ -22,8 +22,8 @@ jobs:
       - script: pwd
     #   - NOTIFY: myEmail2
     #   - NOTIFY: mySlack2
-       - script: echo 'infra test'
-       - script: echo 'newtesting success'
+      - script: echo 'infra test'
+      - script: echo 'newtesting success'
     # on_failure:
     #   - script: echo 'testing1 failure'
     #   - script: echo 'failure runSh'
