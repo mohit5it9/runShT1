@@ -26,7 +26,7 @@ resources:
     version:
       params:
         foo: bar1
-        foo: bar2
+        #foo: bar2
         secure: gr+AA3eY3XKQduvTpLlMSd7D2aqxFGgMjhNnqzRLTPwUrRCHbADfKvA10Z9nA5Du5TGycmBCpTb/huEFvaXDnoJ5NLQ1J2M7bA1xSGXKk1ufBndzOJ//CpeKxJHJuY5ldRKKS2GmATcK60pyimukaQPCHiXlfEyo2n732nK7gT5yQOllVpjF0UWxs37vP0tDWF5NUUfAMSWNp9aq5GGh5S5eeNJrwrDQab6vNzR7X1Glpclry2+JjW7s5s8igqc1seCpFek91wxI7Ta7qRQLkurPc9RX82//tAGdAF/+0eXQnr9IsTwEFG00XGMxZoFtotokJz7L/N9ORqSxj62Ekg== 
 
       
