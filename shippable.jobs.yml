@@ -49,7 +49,7 @@ jobs:
       - NOTIFY: myEmail2
     #   - NOTIFY: mySlack2
   
-  - name: runShk8
+  - name: runShT11
     type: runSh
    #  serial: true
     steps:
