@@ -2,4 +2,4 @@ triggers:
   - name: triggertestT1
     type: trigger
     version:
-      counter: 72
+      counter: 73
