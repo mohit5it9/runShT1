@@ -16,7 +16,7 @@ resources:
 
   - name: myEmail2
     type: notification
-    integration: email
+   # integration: email
     pointer:
       method: email
       recipients: 
