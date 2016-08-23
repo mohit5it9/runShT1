@@ -21,7 +21,7 @@ resources:
       method: email
       recipients: 
         -  "sreya@shippable.com"
-  - name: env
+  - name: env1
     type: params
     version:
       params:
