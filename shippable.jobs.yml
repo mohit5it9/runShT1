@@ -1,6 +1,6 @@
 jobs:
   - name: runShT1
-    type: runSh
+    type: runsh
    # serial: true
     steps:
       - IN: sample-scriptT1
