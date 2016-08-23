@@ -15,7 +15,7 @@ jobs:
       #- IN: runShT1
       #- OUT: plv2-imageT1 
      # - IN: SREYA
-      - IN: env1
+     # - IN: env1
      # - IN: plv2-imageT1
         #versionName: "deploy.1"
       - IN: triggertestT1
