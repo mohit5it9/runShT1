@@ -5,7 +5,7 @@ jobs:
     steps:
       - IN: sample-scriptT1
      # - IN: env
-      - IN: triggertestt1
+      - IN: triggertestT1
       - TASK:
         - script: ./IN/sample-scriptT1/gitRepo/echo.sh
         # - script: pwd
