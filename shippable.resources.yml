@@ -6,6 +6,22 @@ resources:
       sourceName: shiptests1/sample-script-3
       branch: master
       
+  - name: mySlack2
+    type: notification
+    integration: ship-slack1
+    pointer:
+      recipients:
+        - "#random"
+      # - "@pvt-channel"
+
+  - name: myEmail2
+    type: notification
+    integration: email
+    pointer:
+      recipients: 
+        -  "sreya@shippable.com"
+  
+      
   # - name: sample-script-4
   #   type: gitRepo
   #   integration: github
