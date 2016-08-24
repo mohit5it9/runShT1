@@ -42,7 +42,7 @@ jobs:
        - NOTIFY: mySlack2
        - script: echo 'infra test'
        - script: echo 'newtesting success'
-    #   - NOTIFY: mySlack2
+       - NOTIFY: mySlack2
     #   - NOTIFY: myEmail2
     on_failure:
       -  echo 'testing1 failure'
