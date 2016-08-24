@@ -11,6 +11,8 @@ jobs:
    # serial: true
     steps:
       - IN: sample-scriptT1
+      - IN: plv2-imageT1j1
+        versionNumber: 10000
       - IN: plv2-manT11
       #- IN: runShT1
       #- OUT: plv2-imageT1 
