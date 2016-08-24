@@ -40,8 +40,8 @@ jobs:
        - script: /build/IN/sample-scriptT1/gitRepo/echo.sh
        - NOTIFY: myEmail2
        - NOTIFY: mySlack2
-       - echo 'infra test'
-       - echo 'newtesting success'
+       - script: echo 'infra test'
+       - script: echo 'newtesting success'
     #   - NOTIFY: mySlack2
     #   - NOTIFY: myEmail2
     on_failure:
