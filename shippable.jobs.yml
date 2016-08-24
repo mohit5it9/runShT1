@@ -3,7 +3,7 @@ jobs:
     type: manifest
     steps:
       - IN: plv2-imageT1j1
-       # versionNumber: 10000
+        versionNumber: 10000
       #- IN: plv2-envimage
       - IN: triggertestT1
   - name: runShT1
